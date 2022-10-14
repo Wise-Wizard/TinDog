@@ -1,0 +1,62 @@
+body{
+    font-family: 'EB-Garamond, serif';
+}
+
+#title{
+    background-color: #FD3A73;
+    font-family: 'EB-Garamond, serif';
+    color: white;
+}
+
+h1{
+    font-family: 'EB-Garamond, serif';
+    font-size: 3.8rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
+
+
+/* NavBar CSS */
+.navbar{
+    background-color: #424242;
+    font-family: 'EB-Garamond, serif';
+    padding: 1% 12%;
+    color: white;
+}
+
+.navbar-brand{
+    font-size: 2.5rem;
+}
+
+.nav-item{
+    font-size: 1.4rem;
+    color: white;
+    padding: 0% 18px;
+}
+/* /NavBar CSS */
+
+
+/* Top Container CSS */
+
+.container-fluid{
+    padding: 5% 12%;
+}
+
+/* Button CSS */
+.download-button{
+    margin: 5% 2% 5% 0%;
+}
+/* /Button CSS */
+
+/* Title Image CSS */
+.title-image{
+    width: 60%;
+    transform: rotate(30deg);
+}
+.title-image:hover{
+    transform: rotate(0deg);
+}
+
+
+
+
