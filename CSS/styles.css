@@ -37,8 +37,9 @@ h1{
 
 
 /* Top Container CSS */
-
 .container-fluid{
+    display: flex;
+    justify-content: center;
     padding: 5% 12%;
 }
 
@@ -56,7 +57,79 @@ h1{
 .title-image:hover{
     transform: rotate(0deg);
 }
+/* /Title Image CSS */
+
+/* /Top-Container CSS */
 
 
+/* Middle-Container CSS */
+.feature-box
+{
+    text-align: center;
+    padding: 3%;
+}
 
+h3
+{
+    font-family: 'EB-Garamond, serif';
+    font-weight: 900;
+    font-size: 2.2rem;
+    color: #424242;
+}
+
+.Icons
+{
+   
+    font-size: 4rem;
+    color: #FD3A73;
+    margin: 5%;
+}
+.Icons:hover
+{
+    color: #C70039 ;
+}
+
+p
+{
+    font-family: 'EB-Garamond, serif';
+    color: #424242;
+    font-size: 1.5rem;
+}
+/* /Middle Container CSS */
+
+
+/* Testimonials Section CSS */
+#testimonials{
+    padding: 7% 22%;
+    text-align: center;
+    background-color: #FD3A73;
+    color: white;
+}
+
+h2{
+    font-family: 'EB-Garamond, serif';
+    font-size: 3rem;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.testimonial-image{
+    width: 15%;
+    margin: 3%;
+    border-radius: 100%;
+}
+/* /Testimonial Section CSS */
+
+
+/* Press Section CSS */
+#press{
+        background-color: #FD3A73;
+        text-align: center;
+        padding-bottom: 3%;
+}
+
+.press-logo{
+    width: 15%;
+    margin: 0% 2%;
+}
 
