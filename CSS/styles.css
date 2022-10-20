@@ -65,7 +65,7 @@ h1{
     #title{
         text-align: center;
     }
-    
+
     .title-image{
         position: static;
         transform: rotate(0deg);
@@ -167,4 +167,26 @@ h2{
 .pricing-cards{
     padding: 3% 3%;
 }
+/* /Pricing Section */
+
+
+/* Footer Section CSS*/
+#cta{
+    background-color: #FD3A73;
+    text-align: center;
+    padding: 3%;
+}
+
+.footer-title{
+    color: white;
+    line-height: 1.5;
+    padding: 5% 22%;
+    font-size: 3.1rem;
+}
+
+.footer-buttons{
+    margin: 0% 2%;
+}
+/* /Footer Section CSS */
+
 
