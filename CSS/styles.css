@@ -51,22 +51,42 @@ h1{
 
 /* Title Image CSS */
 .title-image{
-    width: 60%;
+    width: 300px;
     transform: rotate(30deg);
+    position: absolute;
+    right: 25%;
+   
 }
 .title-image:hover{
     transform: rotate(0deg);
 }
 /* /Title Image CSS */
-
+@media (max-width:1028px) {
+    #title{
+        text-align: center;
+    }
+    
+    .title-image{
+        position: static;
+        transform: rotate(0deg);
+        width: 250px;
+    }
+}
 /* /Top-Container CSS */
 
 
 /* Middle-Container CSS */
+#features{
+    background-color: white;
+    z-index: 1;
+    position: relative;
+}
+
 .feature-box
 {
     text-align: center;
     padding: 3%;
+
 }
 
 h3
@@ -111,6 +131,7 @@ h2{
     font-size: 3rem;
     line-height: 1.5;
     text-align: center;
+    font-weight: 900;
 }
 
 .testimonial-image{
@@ -131,5 +152,19 @@ h2{
 .press-logo{
     width: 15%;
     margin: 0% 2%;
+}
+/* Press Section CSS */
+
+
+/* Pricing Section CSS */
+#pricing{
+    padding: 5% 5%;
+    text-align: center;
+    font-family: 'EB-Garamond, serif';
+    color: #424242;
+}
+
+.pricing-cards{
+    padding: 3% 3%;
 }
 
